@@ -1,0 +1,15 @@
+## Summary
+
+(Short description of the changes)
+
+## Type of change
+- [ ] New post
+- [ ] Update to post
+- [ ] Infrastructure / docs
+- [ ] Other (describe):
+
+## Checklist
+- [ ] I added/updated frontmatter (title, date, tags, draft)
+- [ ] I previewed the site locally or used the preview deployment
+- [ ] Images are included in `content/assets/` and referenced relatively
+- [ ] No broken links
