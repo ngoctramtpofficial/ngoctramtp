@@ -1,0 +1,43 @@
+# Contributing to the Blog
+
+Thank you for helping build the blog — we welcome new posts, fixes, and improvements.
+
+Where to add content
+- Place posts in: `content/posts/`
+- Place images/assets in: `content/assets/` and reference them with relative paths.
+
+Filename and frontmatter
+- Recommended filename format: `YYYY-MM-DD-your-title.md` or `your-slug.md`.
+- Required frontmatter (YAML at the top of each post):
+  ```
+  ---
+  title: "Post title"
+  date: "2025-11-17"
+  tags: ["tag1", "tag2"]
+  draft: false
+  ---
+  ```
+- Use `draft: true` for posts you don’t want published yet.
+
+How to preview locally (example for a Node/Next/Static site)
+1. Clone the repo:
+   - git clone git@github.com:ngoctramtpofficial/ngoctramtp.git
+   - cd ngoctramtp
+2. If the site is in a subfolder `site/`, go there:
+   - cd site
+3. Install and run:
+   - npm install
+   - npm run dev
+4. Open http://localhost:3000 to preview.
+
+If you’re using another stack (Hugo/Jekyll/Astro), use the normal commands for that framework (hugo server / bundle exec jekyll serve / npm run dev for Astro).
+
+Pull request checklist
+- [ ] Title and date are present in frontmatter.
+- [ ] Images are added to `content/assets/` and referenced relatively.
+- [ ] No broken links in the post.
+- [ ] Previewed locally or via PR preview.
+- [ ] Set `draft: false` when ready to publish.
+
+Need help?
+- Open an issue with the label `help wanted` and describe what you need.
