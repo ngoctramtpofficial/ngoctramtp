@@ -1,0 +1,12 @@
+---
+title: "Welcome to the Open Blog"
+date: "2025-11-17"
+tags: ["welcome","intro"]
+draft: false
+---
+
+Welcome! This is an example post. To add a post, create a new file in `content/posts/` with YAML frontmatter as described in CONTRIBUTING.md.
+
+Tips:
+- Use `content/assets/` for images and reference them with relative paths.
+- Use `draft: true` for posts you don't want published yet.
