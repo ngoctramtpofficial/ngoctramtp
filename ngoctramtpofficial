@@ -1,0 +1,15 @@
+# Open Blog (ngoctramtp)
+
+This repository will host an open, contribution-friendly blog for the ngoctramtp project.
+
+Quick start
+- Posts live under: content/posts/
+- Use Markdown (.md or .mdx) with YAML frontmatter (see CONTRIBUTING.md).
+- To preview locally, follow the instructions in CONTRIBUTING.md for your chosen site folder (e.g., `site/` if the blog runs in a subfolder).
+
+Recommended workflow
+1. Create a branch for your change (e.g., `open-blog/init` or `feature/add-post`).
+2. Add or update files under `content/posts/` and assets under `content/assets/`.
+3. Open a Pull Request on GitHub with your changes.
+
+See CONTRIBUTING.md for guidelines on post formatting, frontmatter, and how to preview the site locally.
